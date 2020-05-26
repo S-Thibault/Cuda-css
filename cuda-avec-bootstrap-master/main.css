@@ -1,6 +1,7 @@
 /*......Bacground colors......*/
 .bg-1 {background-color: #87509C;}
-.bg-2 {background-color: #17C2A4;}
+.bg-2 {background-color: #17C2A4;
+}
 .bg-3 {background-color: #E7F1F8;}
 .bg-4 {background-color: #FFFFFF;}
 .bg-5 {background-color: #FFDD99;}
@@ -8,6 +9,18 @@
 .bg-7 {background-color: #3C5499;}
 .bg-8 {background-color: #344B8E;}
 .bg-btn-home {background-color: #643A79;}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 480px){
+  .flex{
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .btn-group {
   background:    black;
