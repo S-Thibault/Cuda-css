@@ -1,7 +1,7 @@
 .progress-svggg>li {
   position: relative;
 }
-
+ 
 .progress-svggg>li:before {
   font-size: 24px;
   font-weight: 700;
